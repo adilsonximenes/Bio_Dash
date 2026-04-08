@@ -99,7 +99,8 @@ Previsão para 30 e 60 dias
 Data estimada para atingir a meta
 
 ## 🔗 Acesse o App
-Clique aqui para acessar o BioTrack
+[Clique aqui para acessar o BioTrack
+](https://adilsonximenes-bio-dash.streamlit.app/)
 
 Desenvolvido com ❤️ para uma nutrição acessível e sustentável.
 
