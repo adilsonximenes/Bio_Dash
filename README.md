@@ -100,7 +100,7 @@ Data estimada para atingir a meta
 
 ## 🔗 Acesse o App
 [Clique aqui para acessar o BioTrack
-](https://adilsonximenes-bio-dash.streamlit.app/)
+](https://bio-dash.streamlit.app/)
 
 Desenvolvido com ❤️ para uma nutrição acessível e sustentável.
 
