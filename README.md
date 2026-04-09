@@ -1,49 +1,66 @@
-# 📊 BioTrack - Nutrição & Evolução
+# 📊 BioTrack - Nutrição & Evolução (Projeto Pessoal)
 
-Sistema de acompanhamento nutricional e registro de peso para dieta com ovos e frango.
+**⚠️ AVISO: Este é um projeto PESSOAL desenvolvido exclusivamente para uso próprio.**
 
-## 🎯 Sobre o Projeto
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=Streamlit&logoColor=white)](https://streamlit.io)
 
-BioTrack é um aplicativo web para registro diário de refeições e evolução de peso, desenvolvido para quem busca uma alimentação acessível e sustentável.
+---
 
-**Base alimentar:**
+## 🔒 **PROJETO PESSOAL - NÃO COMPARTILHÁVEL**
+
+> **Este sistema foi criado exclusivamente para acompanhamento nutricional pessoal.**
+> 
+> - ✅ Dados fixos (altura, idade, peso inicial e meta)
+> - ✅ Planejamento alimentar personalizado
+> - ✅ Registro local (CSV) - sem banco de dados externo
+> - ❌ **Não é um produto comercial**
+> - ❌ **Não é para uso público ou compartilhamento**
+
+---
+
+## 🎯 **Sobre o Projeto**
+
+BioTrack é um sistema **pessoal** de registro diário de refeições e evolução de peso, desenvolvido **exclusivamente para mim (Adilson Ximenes)**.
+
+**Base alimentar personalizada:**
 - 🥚 Café da manhã: 3 ovos + carboidrato
 - 🍗 Almoço: Frango + vegetais + carboidrato
 - 💪 Pós-treino: 3 ovos + carboidrato
 
-## ✨ Funcionalidades
+**Meus dados fixos:**
+- 📏 Altura: 1.64m
+- 🎂 Idade: 47 anos
+- ⚖️ Peso inicial: 85.8 kg
+- 🎯 Meta de peso: 65.8 kg
+
+---
+
+## ✨ **Funcionalidades**
 
 - ✅ Registro diário de check-in das refeições
 - ⚖️ Histórico de peso com gráfico de evolução
 - 📅 Calendário visual de adesão
-- 🔐 Modo edição protegido por senha
+- 🔐 Modo edição protegido por senha (admin)
 - 📋 Cardápio semanal integrado
 - 📊 Tabela nutricional completa
 - 🥤 Sugestões de preparo rápido
 
-## 🍽️ Cardápio Base
+---
 
-| Dia | Café | Almoço | Pós-Treino |
-|-----|------|--------|-------------|
-| Segunda | Pão Francês | Arroz + Chuchu/Cenoura | Banana + Aveia + Leite |
-| Terça | Mamão Papaia | Arroz + Beterraba | Pão Francês |
-| Quarta | Banana + Aveia | Batata Doce + Chuchu/Cenoura | Banana + Aveia + Leite |
-| Quinta | Pão Francês | Arroz + Abobrinha | Pão Francês |
-| Sexta | Mamão Papaia | Batata Doce + Beterraba | Banana + Aveia + Leite |
-| Sábado | Banana + Aveia | Arroz + Abóbora | Pão Francês |
-| Domingo | Pão Francês | Batata Inglesa + Chuchu/Cenoura | Mamão + Aveia + Leite |
+## 🛠️ **Tecnologias Utilizadas**
 
-## 🥗 Vegetais (sempre juntos)
-- Chuchu + Cenoura (cozidos juntos para otimizar gás)
+| Tecnologia | Versão | Finalidade |
+|------------|--------|------------|
+| Python | 3.9+ | Linguagem principal |
+| Streamlit | 1.35+ | Interface web |
+| Pandas | 2.0+ | Manipulação de dados |
+| Plotly | 5.24+ | Gráficos interativos |
 
-## 🛠️ Tecnologias
+---
 
-- Python 3.9+
-- Streamlit
-- Pandas
-- Plotly
-
-## 🚀 Como Executar Localmente
+## 🚀 **Como Executar (apenas para mim)**
 
 ```bash
 # Clone o repositório
@@ -58,65 +75,25 @@ pip install -r requirements.txt
 # Execute o app
 streamlit run app.py
 ```
-## 🔐 Senha do Modo Admin
-A senha para ativar o modo de edição é configurada via Streamlit Secrets:
+## 🔒 Licença e Direitos
+Este projeto está licenciado sob a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).
 
-No arquivo .streamlit/secrets.toml (local) ou nas configurações do Streamlit Cloud:
+Permissão	Status
+✅ Uso pessoal (apenas para mim)	Permitido
+✅ Estudo do código	Permitido
+❌ Uso comercial	PROIBIDO
+❌ Compartilhamento do app	PROIBIDO
+❌ Modificação e redistribuição	PROIBIDO
+Este é um projeto PESSOAL. O código está disponível apenas para fins educacionais e de estudo, mas o aplicativo em si NÃO deve ser compartilhado ou utilizado por terceiros.
 
-[admin]
-senha = "sua_senha_aqui"
+📞 Contato
+Autor: ADILSON GONCALVES XIMENES
 
-## 📁 Estrutura do Projeto
-```bash
-Bio_Dash/
-├── app.py                 # Aplicação principal
-├── requirements.txt       # Dependências
-├── .gitignore            # Arquivos ignorados
-└── .streamlit/
-    └── secrets.toml      # Configuração de senha (não versionado)
-```
-## 📊 Dados Armazenados
-peso_diario.csv - Histórico de pesagens
+GitHub: adilsonximenes
 
-checkin_diario.csv - Registro diário de refeições
+📊 App Online (acesso restrito)
+https://static.streamlit.io/badges/streamlit_badge_black_white.svg
 
-(Os CSVs são criados automaticamente na primeira execução)
+⚠️ Acesso apenas para o proprietário. O app está público apenas para facilitar o acesso do próprio desenvolvedor em diferentes dispositivos.
 
-## 👩‍🍳 Orientações de Preparo
-Chuchu + Cenoura: Cozinhar juntos, duram 3-4 dias na geladeira
-
-Frango: Pode fazer quantidade maior, dura 3-4 dias
-
-Ovos cozidos: Duram até 5 dias na geladeira
-
-Shake rápido: Beterraba + banana + aveia + leite (bater no liquidificador)
-
-## 📈 Projeção de Resultados
-Taxa de perda ajustada por faixa de peso
-
-Previsão para 30 e 60 dias
-
-Data estimada para atingir a meta
-
-## 🔗 Acesse o App
-[Clique aqui para acessar o BioTrack
-](https://bio-dash.streamlit.app/)
-
-Desenvolvido com ❤️ para uma nutrição acessível e sustentável.
-
----
-
-### **4. Clique em "Commit new file"**
-
-### **5. Seu README estará visível na página principal do repositório!**
-
----
-
-## 📋 **RESUMO DOS ARQUIVOS NO SEU REPOSITÓRIO AGORA:**
-```bash
-Bio_Dash/
-├── app.py ✅
-├── requirements.txt ✅
-├── .gitignore ✅
-└── README.md ✅ (acabou de criar)
-```
+Desenvolvido com ❤️ para acompanhamento nutricional pessoal.
