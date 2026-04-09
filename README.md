@@ -97,3 +97,13 @@ https://static.streamlit.io/badges/streamlit_badge_black_white.svg
 ⚠️ Acesso apenas para o proprietário. O app está público apenas para facilitar o acesso do próprio desenvolvedor em diferentes dispositivos.
 
 Desenvolvido com ❤️ para acompanhamento nutricional pessoal.
+
+---
+
+## 📋 **Arquivos que você precisa criar/atualizar**
+
+### **1. LICENSE (arquivo separado)**
+```text
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+
+Este projeto é de uso pessoal e exclusivo do autor. Não é permitido uso comercial, compartilhamento do aplicativo ou modificação para redistribuição.
